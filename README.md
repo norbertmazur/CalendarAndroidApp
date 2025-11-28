@@ -45,11 +45,6 @@ This project was developed to address the need for a specific, customizable time
 
 ## 📷 Screenshots
 
-*(Placeholder: Add screenshots of your app here)*
-
-| Login Screen | Monthly View | Add Event |
-|:---:|:---:|:---:|
-| ![Login Screen](path/to/login_screenshot.png) | ![Monthly View](path/to/monthly_screenshot.png) | ![Add Event](path/to/addevent_screenshot.png) |
 
 ## 🛠️ Technologies Used
 
@@ -63,4 +58,24 @@ This project was developed to address the need for a specific, customizable time
 - **Android SDK:** Core Android components (Activity, Fragment, Intent).
 - **Layouts:** `LinearLayout`, `RelativeLayout`, `FrameLayout`, `TextInputLayout`.
 - **Widgets:** `RecyclerView`, `ListView`, `DatePicker`, `TimePicker`, `Spinner`.
-- **
+- **Java Util:** `ArrayList`, `Collections` (for sorting events), `java.time` (LocalDate, LocalTime).
+
+## 🏗️ Architecture & Design
+
+The application follows standard Android development practices:
+- **Object-Oriented Programming:** Extensive use of Classes, Encapsulation, and Constructors.
+- **MVC Pattern:** Separation of logic (Java classes), data (SQLite), and presentation (XML).
+- **Data Persistence:** - `SQLiteDBHandler`: Manages database creation and version management.
+  - **Tables:** `Users` (stores credentials) and `Events` (stores event details).
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Android Studio installed on your machine.
+- Java Development Kit (JDK).
+- An Android device or Emulator (AVD).
+
+### Installation
+
+To use the product, you need to run the project source code (extracted from the ZIP file) through an Android emulator targeting API Level 33 (Android 13) or higher, or install the .apk file directly onto a physical device running a compatible Android operating system (API 33+).
+If you choose the option to run it using an emulator, I highly recommend doing it through Android Studio. It provides the required emulator configuration out-of-the-box and offers the added benefit of allowing you to view and inspect the source code directly.
