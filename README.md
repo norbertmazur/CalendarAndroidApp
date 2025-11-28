@@ -43,9 +43,6 @@ This project was developed to address the need for a specific, customizable time
   - 3 Events: Ocean Green
   - 4+ Events: Golden
 
-## 📷 Screenshots
-
-
 ## 🛠️ Technologies Used
 
 ### Core Tech
