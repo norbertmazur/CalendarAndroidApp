@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Calendar</string>
+    <string name="click_to_select_time">Click to select time</string>
+    <string-array name="categories">
+        <item>Default</item>
+        <item>Work</item>
+        <item>Family</item>
+        <item>Health</item>
+        <item>Sports</item>
+        <item>Deadline</item>
+        <item>Fun</item>
+    </string-array>
+    <string-array name="cyclical">
+        <item>Singular</item>
+        <item>Daily</item>
+        <item>Weekly</item>
+        <item>Monthly</item>
+        <item>Annual</item>
+    </string-array>
+</resources>
