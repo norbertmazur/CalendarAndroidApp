@@ -1,8 +1,8 @@
-# 📅 Custom Calendar Android Application
+# Custom Calendar Android Application
 
 A comprehensive mobile calendar application designed to help users efficiently manage their time, schedule meetings, and track daily activities. Built natively for Android using Java, this application offers a secure and intuitive interface for personal schedule management.
 
-## 📖 Table of Contents
+## Table of Contents
 
 - [About the Project](#-about-the-project)
 - [Key Features](#-key-features)
@@ -12,30 +12,30 @@ A comprehensive mobile calendar application designed to help users efficiently m
 - [Getting Started](#-getting-started)
 - [Future Improvements](#-future-improvements)
 
-## 📝 About the Project
+## About the Project
 
 This project was developed to address the need for a specific, customizable time management tool. Unlike standard calendar apps, this solution focuses on specific user-defined categories, visual cues for event density (colored stars), and secure local data storage. It allows users to seamlessly switch between different temporal views (Month, Week, Day) and manage recurring events with ease.
 
-## ✨ Key Features
+## Key Features
 
-### 🔐 User Authentication
+### User Authentication
 - **Secure Login/Signup:** Users must create an account to access their private calendar.
 - **Security:** Passwords are hashed using **SHA-256** encryption before storage, ensuring user data privacy.
 - **Input Validation:** Robust validation for username length and password strength (regex).
 
-### 🗓️ Versatile Calendar Views
+### Versatile Calendar Views
 - **Monthly View:** High-level overview of the month with navigation buttons.
 - **Weekly View:** 7-day layout to plan the week ahead.
 - **Daily View:** Hour-by-hour breakdown for precise scheduling.
 - **Upcoming Events:** A dedicated list view sorting all future events chronologically.
 
-### ⚡ Event Management
+### Event Management
 - **CRUD Operations:** Create, Read, Update, and Delete events.
 - **Recurring Events:** Functionality to set events that repeat daily, weekly, monthly, or annually.
 - **Categories:** Assign categories (e.g., Work, Family, Health, Sports) to events.
 - **Color Coding:** Events change color based on their assigned category for quick visual recognition.
 
-### 🎨 Visual Indicators
+### Visual Indicators
 - **Event Stars:** Dates with events are marked with a star icon.
 - **Dynamic Styling:** The color of the star changes based on the number of events that day:
   - 1 Event: Magenta
@@ -43,7 +43,7 @@ This project was developed to address the need for a specific, customizable time
   - 3 Events: Ocean Green
   - 4+ Events: Golden
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 ### Core Tech
 - **Language:** Java (JDK 8+)
@@ -57,7 +57,7 @@ This project was developed to address the need for a specific, customizable time
 - **Widgets:** `RecyclerView`, `ListView`, `DatePicker`, `TimePicker`, `Spinner`.
 - **Java Util:** `ArrayList`, `Collections` (for sorting events), `java.time` (LocalDate, LocalTime).
 
-## 🏗️ Architecture & Design
+## Architecture & Design
 
 The application follows standard Android development practices:
 - **Object-Oriented Programming:** Extensive use of Classes, Encapsulation, and Constructors.
@@ -65,7 +65,7 @@ The application follows standard Android development practices:
 - **Data Persistence:** - `SQLiteDBHandler`: Manages database creation and version management.
   - **Tables:** `Users` (stores credentials) and `Events` (stores event details).
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Android Studio installed on your machine.
